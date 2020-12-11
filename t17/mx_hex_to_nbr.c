@@ -29,8 +29,3 @@ unsigned long mx_hex_to_nbr(const char *hex) {
 	}
 	return res;
 }
-#include "stdio.h"
-int main(){
-	printf("%lu", mx_hex_to_nbr("20"));
-	return 0;
-}
